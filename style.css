@@ -8,8 +8,9 @@
 
     height: 100%;
     width: 1349px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box;
+    margin-top: -100px;
 }
 
 .nav-cart {
@@ -131,6 +132,16 @@
     color: white;
 
 }
+.service-btn:hover{
+    height: 75px;
+    width: 240px;
+    transition: all 0.5ms ease-in;
+    color: black;
+}
+.card:hover {
+    background-color:rgb(124, 88, 211) ;
+    transition: all 0.5ms ease-in-out;
+}
 
 
 
@@ -231,7 +242,7 @@
 .hero-section2 {
     height: 600px;
     width: 1349px;
-    border: 1px solid border;
+    /* border: 1px solid border; */
     /* display: flex;
     justify-content: center; */
 
@@ -290,7 +301,7 @@ align-items: flex-start; */
     height: 500px;
     width: 50%;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .sec3-img {
@@ -406,7 +417,7 @@ align-items: flex-start; */
 }
 
 .sec4img {
-    border-radius: 10PX;
+    border-radius: 10px;
 }
 
 .sec5-3 {
@@ -425,7 +436,7 @@ align-items: flex-start; */
 .cart {
     height: 500px;
     width: 1349px;
-    border: 1px solid balck;
+    /* border: 1px solid balck; */
     display: flex;
     position: static;
 
@@ -446,4 +457,8 @@ align-items: flex-start; */
 
 .card-link {
     padding-left: 60px;
+}
+.cart-direction{
+    margin-left: 400px;
+    position: absolute;
 }
